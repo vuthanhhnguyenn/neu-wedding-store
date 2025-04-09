@@ -1,0 +1,224 @@
+/* Responsive Styles for NEU Wedding Store
+-------------------------------------------------- */
+
+/* Tablets (under 992px) */
+@media screen and (max-width: 992px) {
+  /* Typography adjustments */
+  .heading-xl {
+    font-size: 2.8rem;
+  }
+  
+  .heading-lg {
+    font-size: 2.2rem;
+  }
+  
+  /* Layout adjustments */
+  .about-content {
+    flex-direction: column;
+    gap: var(--spacing-lg);
+  }
+  
+  .about-image,
+  .about-text {
+    width: 100%;
+  }
+  
+  /* Categories */
+  .categories-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  /* Testimonials */
+  .testimonials-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-sm);
+  }
+  
+  /* Footer */
+  .footer-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-md);
+  }
+  
+  /* About Page */
+  .story-content {
+    flex-direction: column;
+    gap: var(--spacing-lg);
+  }
+  
+  .story-text,
+  .story-image {
+    width: 100%;
+  }
+  
+  .mission-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-sm);
+  }
+  
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-md);
+  }
+  
+  .studio-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile Devices (under 768px) */
+@media screen and (max-width: 768px) {
+  /* Typography adjustments */
+  .heading-xl {
+    font-size: 2.2rem;
+  }
+  
+  .heading-lg {
+    font-size: 1.8rem;
+  }
+  
+  /* Navigation */
+  .menu-toggle {
+    display: block;
+  }
+  
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: var(--spacing-sm) 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-links.active {
+    display: flex;
+  }
+  
+  .nav-links li {
+    width: 100%;
+  }
+  
+  .nav-links a {
+    display: block;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-bottom: 1px solid var(--wedding-cream);
+  }
+  
+  .nav-links a:hover {
+    background-color: var(--wedding-cream);
+  }
+  
+  /* Hero */
+  .hero {
+    height: 70vh;
+  }
+  
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  /* Categories */
+  .categories-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-sm);
+  }
+  
+  /* Testimonials */
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  /* CTA */
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-sm);
+  }
+  
+  .cta-buttons a {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  /* Footer */
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+  
+  /* About Page */
+  .page-banner {
+    height: 30vh;
+  }
+  
+  .mission-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+  
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+  
+  .studio-gallery {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-sm);
+  }
+}
+
+/* Small Mobile Devices (under 576px) */
+@media screen and (max-width: 576px) {
+  /* Typography adjustments */
+  .heading-xl {
+    font-size: 1.8rem;
+  }
+  
+  .heading-lg {
+    font-size: 1.5rem;
+  }
+  
+  .body-lg {
+    font-size: 1rem;
+  }
+  
+  /* Spacing adjustments */
+  .section-padding {
+    padding: var(--spacing-md) 0;
+  }
+  
+  /* Hero */
+  .hero {
+    height: 60vh;
+  }
+  
+  /* About */
+  .about-content {
+    gap: var(--spacing-md);
+  }
+  
+  /* Testimonials */
+  .testimonial-card {
+    padding: var(--spacing-sm);
+  }
+  
+  /* About Page */
+  .mission-card {
+    padding: var(--spacing-sm);
+  }
+  
+  .team-photo {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .gallery-item {
+    height: 200px;
+  }
+} 

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bộ Sưu Tập Váy Cưới - NEU Wedding Store</title>
+    <meta name="description" content="Khám phá bộ sưu tập váy cưới đa dạng với nhiều kiểu dáng, chất liệu, và phong cách tại NEU Wedding Store." />
+    <meta name="author" content="NEU Wedding Store" />
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+
+  <body>
+    <!-- Header/Navbar -->
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <a href="index.html" class="logo">NEU Wedding Store</a>
+          
+          <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+          
+          <ul class="nav-links">
+            <li><a href="index.html">Trang Chủ</a></li>
+            <li><a href="about.html">Giới Thiệu</a></li>
+            <li><a href="products.html" class="active">Sản Phẩm</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Liên Hệ</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="login.html">Đăng Nhập</a></li>
+            <li><a href="cart.html">Giỏ Hàng</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Banner -->
+      <section class="page-banner">
+        <div class="banner-background">
+          <img src="https://picsum.photos/id/177/2000/800" alt="Bộ Sưu Tập Váy Cưới">
+          <div class="overlay"></div>
+        </div>
+        <div class="banner-content">
+          <h1 class="heading-xl">Bộ Sưu Tập Váy Cưới</h1>
+        </div>
+      </section>
+
+      <!-- Products Section -->
+      <section class="section-padding bg-white">
+        <div class="container">
+          <!-- Search and Filter -->
+          <div class="product-filters">
+            <div class="search-filter-container">
+              <div class="search-container">
+                <input type="text" placeholder="Tìm kiếm váy cưới..." class="search-input" id="product-search">
+              </div>
+              <div class="filter-container">
+                <select class="filter-select" id="category-filter">
+                  <option value="all">Tất cả kiểu dáng</option>
+                  <option value="Váy Xòe">Váy Xòe</option>
+                  <option value="Váy Đuôi Cá">Váy Đuôi Cá</option>
+                  <option value="Váy Tối Giản">Váy Tối Giản</option>
+                  <option value="Váy Suông">Váy Suông</option>
+                </select>
+                <select class="filter-select" id="price-filter">
+                  <option value="all">Tất cả giá</option>
+                  <option value="under25">Dưới 25 triệu</option>
+                  <option value="25to30">25 - 30 triệu</option>
+                  <option value="over30">Trên 30 triệu</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Grid -->
+          <div class="products-grid" id="products-container">
+            <!-- Products will be dynamically added here -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="https://picsum.photos/id/64/600/800" alt="Váy Cưới Ren Princess">
+                <div class="product-overlay"></div>
+                <a href="product-detail.html?id=1" class="product-detail-btn">Xem Chi Tiết</a>
+              </div>
+              <div class="product-info">
+                <div>
+                  <h3><a href="product-detail.html?id=1">Váy Cưới Ren Princess</a></h3>
+                  <p class="product-category">Váy Xòe</p>
+                </div>
+                <p class="product-price">25.000.000 ₫</p>
+              </div>
+            </div>
+            
+            <div class="product-card">
+              <div class="product-image">
+                <img src="https://picsum.photos/id/65/600/800" alt="Váy Cưới Đuôi Cá Elegance">
+                <div class="product-overlay"></div>
+                <a href="product-detail.html?id=2" class="product-detail-btn">Xem Chi Tiết</a>
+              </div>
+              <div class="product-info">
+                <div>
+                  <h3><a href="product-detail.html?id=2">Váy Cưới Đuôi Cá Elegance</a></h3>
+                  <p class="product-category">Váy Đuôi Cá</p>
+                </div>
+                <p class="product-price">30.000.000 ₫</p>
+              </div>
+            </div>
+            
+            <div class="product-card">
+              <div class="product-image">
+                <img src="https://picsum.photos/id/76/600/800" alt="Váy Cưới Minimalist Pearl">
+                <div class="product-overlay"></div>
+                <a href="product-detail.html?id=3" class="product-detail-btn">Xem Chi Tiết</a>
+              </div>
+              <div class="product-info">
+                <div>
+                  <h3><a href="product-detail.html?id=3">Váy Cưới Minimalist Pearl</a></h3>
+                  <p class="product-category">Váy Tối Giản</p>
+                </div>
+                <p class="product-price">22.000.000 ₫</p>
+              </div>
+            </div>
+            
+            <div class="product-card">
+              <div class="product-image">
+                <img src="https://picsum.photos/id/223/600/800" alt="Váy Cưới Công Chúa Royal">
+                <div class="product-overlay"></div>
+                <a href="product-detail.html?id=4" class="product-detail-btn">Xem Chi Tiết</a>
+              </div>
+              <div class="product-info">
+                <div>
+                  <h3><a href="product-detail.html?id=4">Váy Cưới Công Chúa Royal</a></h3>
+                  <p class="product-category">Váy Xòe</p>
+                </div>
+                <p class="product-price">35.000.000 ₫</p>
+              </div>
+            </div>
+            
+            <div class="product-card">
+              <div class="product-image">
+                <img src="https://picsum.photos/id/325/600/800" alt="Váy Cưới Bohemian Dream">
+                <div class="product-overlay"></div>
+                <a href="product-detail.html?id=5" class="product-detail-btn">Xem Chi Tiết</a>
+              </div>
+              <div class="product-info">
+                <div>
+                  <h3><a href="product-detail.html?id=5">Váy Cưới Bohemian Dream</a></h3>
+                  <p class="product-category">Váy Suông</p>
+                </div>
+                <p class="product-price">28.000.000 ₫</p>
+              </div>
+            </div>
+            
+            <div class="product-card">
+              <div class="product-image">
+                <img src="https://picsum.photos/id/366/600/800" alt="Váy Cưới Vintage Lace">
+                <div class="product-overlay"></div>
+                <a href="product-detail.html?id=6" class="product-detail-btn">Xem Chi Tiết</a>
+              </div>
+              <div class="product-info">
+                <div>
+                  <h3><a href="product-detail.html?id=6">Váy Cưới Vintage Lace</a></h3>
+                  <p class="product-category">Váy Xòe</p>
+                </div>
+                <p class="product-price">32.000.000 ₫</p>
+              </div>
+            </div>
+            
+            <div class="product-card">
+              <div class="product-image">
+                <img src="https://picsum.photos/id/367/600/800" alt="Váy Cưới Modern Romance">
+                <div class="product-overlay"></div>
+                <a href="product-detail.html?id=7" class="product-detail-btn">Xem Chi Tiết</a>
+              </div>
+              <div class="product-info">
+                <div>
+                  <h3><a href="product-detail.html?id=7">Váy Cưới Modern Romance</a></h3>
+                  <p class="product-category">Váy Đuôi Cá</p>
+                </div>
+                <p class="product-price">27.000.000 ₫</p>
+              </div>
+            </div>
+            
+            <div class="product-card">
+              <div class="product-image">
+                <img src="https://picsum.photos/id/368/600/800" alt="Váy Cưới Simple Elegance">
+                <div class="product-overlay"></div>
+                <a href="product-detail.html?id=8" class="product-detail-btn">Xem Chi Tiết</a>
+              </div>
+              <div class="product-info">
+                <div>
+                  <h3><a href="product-detail.html?id=8">Váy Cưới Simple Elegance</a></h3>
+                  <p class="product-category">Váy Tối Giản</p>
+                </div>
+                <p class="product-price">20.000.000 ₫</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- No Products Found Message -->
+          <div class="no-products-found" id="no-products-message" style="display: none;">
+            <h3 class="heading-md">Không tìm thấy sản phẩm phù hợp</h3>
+            <p class="body-md">Vui lòng thử lại với bộ lọc khác.</p>
+          </div>
+
+          <!-- Pagination -->
+          <div class="pagination">
+            <div class="pagination-container">
+              <button class="pagination-btn active">1</button>
+              <button class="pagination-btn">2</button>
+              <button class="pagination-btn">3</button>
+              <button class="pagination-btn">→</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>NEU Wedding Store</h3>
+            <p>Địa chỉ đáng tin cậy cho những chiếc váy cưới sang trọng và tinh tế.</p>
+            <div class="social-icons">
+              <a href="#" class="social-icon">Facebook</a>
+              <a href="#" class="social-icon">Instagram</a>
+              <a href="#" class="social-icon">Pinterest</a>
+            </div>
+          </div>
+          
+          <div class="footer-column">
+            <h3>Liên Kết</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Trang Chủ</a></li>
+              <li><a href="about.html">Giới Thiệu</a></li>
+              <li><a href="products.html">Sản Phẩm</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact.html">Liên Hệ</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-column">
+            <h3>Thông Tin Liên Hệ</h3>
+            <address>
+              <p>Địa chỉ: 123 Đường ABC, Quận XYZ, Hà Nội</p>
+              <p>Điện thoại: (024) 1234 5678</p>
+              <p>Email: info@neuweddingstore.com</p>
+            </address>
+          </div>
+          
+          <div class="footer-column">
+            <h3>Giờ Mở Cửa</h3>
+            <p>Thứ 2 - Thứ 6: 9:00 - 20:00</p>
+            <p>Thứ 7 - Chủ Nhật: 9:00 - 21:00</p>
+            <a href="contact.html" class="btn-secondary">Đặt Lịch Hẹn</a>
+          </div>
+        </div>
+        
+        <div class="footer-bottom">
+          <p>&copy; 2024 NEU Wedding Store. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/products.js"></script>
+  </body>
+</html> 
